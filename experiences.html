@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+	(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'UA-37298602-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+
+<head>
+	<title>Tien-Son Dang</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="author" content="owwwlab.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta name="description" content="Tien-Son Dang" />
+	<meta name="keywords" content="faculty profile, theme,css, html, jquery, transition, transform, 3d, css3" />
+
+	<link rel="shortcut icon" href="../favicon.ico">
+
+	<!--CSS styles-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link id="theme-style" rel="stylesheet" href="css/styles/default.css">
+
+
+	<!--/CSS styles-->
+	<!--Javascript files-->
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+
+	<script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+	<script type="text/javascript" src="js/jquery.dropdownit.js"></script>
+
+	<script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+
+	<script type="text/javascript" src="js/masonry.min.js"></script>
+
+	<script type="text/javascript" src="js/perfect-scrollbar-0.4.5.with-mousewheel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+
+	<script type="text/javascript" src="js/magnific-popup.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	<!--/Javascript files-->
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<a href="#sidebar" class="mobilemenu">
+			<i class="fa fa-reorder"></i>
+		</a>
+
+		<div id="sidebar">
+			<div id="sidebar-wrapper">
+				<div id="sidebar-inner">
+					<!-- Profile/logo section-->
+					<div id="profile" class="clearfix">
+						<div class="portrate hidden-xs">
+							<img class="logo-khtn" src="img/personal/wsu_primary_stacked_561.png" alt="">
+						</div>
+						<div class="title">
+							<h2>Tien-Son Dang</h2>							
+							<h3>Detroit, USA</h3>
+						</div>
+					</div>
+					<!-- /Profile/logo section-->
+
+					<!-- Main navigation-->
+					<div id="main-nav">
+						<ul id="navigation">
+							<li>
+								<a href="index.html">
+									<i class="fa fa-home"></i>
+									<div class="text">Home</div>
+								</a>
+							</li>
+							<li>
+								<a href="bio.html">
+									<i class="fa fa-user"></i>
+									<div class="text">About Me</div>
+								</a>
+							</li>
+
+							<li class="currentmenu">
+								<a href="experiences.html">
+									<i class="fa fa-edit"></i>
+									<div class="text">Experiences</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="contact.html">
+									<i class="fa fa-calendar"></i>
+									<div class="text">Contact</div>
+								</a>
+							</li>
+
+
+						</ul>
+					</div>
+					<!-- /Main navigation-->
+					<!-- Sidebar footer -->
+					<div id="sidebar-footer">
+						<div class="social-icons">
+							<ul>
+								<li>
+									<a href="https://www.linkedin.com/in/tien-son-dang-83055b133/" target="_blank">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+
+					</div>
+					<!-- /Sidebar footer -->
+				</div>
+
+			</div>
+		</div>
+
+		<div id="main">
+
+			<div id="publications" class="page">
+				<div class="page-container">
+					<div class="pageheader">
+						<div class="headercontent">
+							<div class="section-container">
+								<h2 class="title">Experiences</h2>
+							</div>
+						</div>
+					</div>
+
+					<div class="pagecontents">
+						<!--
+                            <div class="section color-1" id="filters"> <div class="section-container"> <div class="row">
+
+                                        <div class="col-md-3"> <h3>Filter by type:</h3> </div> <div class="col-md-6"> <select id="cd-dropdown" name="cd-dropdown" class="cd-select"> 
+                                        <option class="filter" value="all" selected>All types</option> 
+                                        <option class="filter" value="jpaper">Journal Papers</option> 
+                                        <option class="filter" value="cpaper">Conference Papers</option> 
+                                        <option class="filter" value="wpaper">Workshop/Short Papers</option>
+										<option class="filter" value="workingpapers">Working Papers</option>
+                                        <!--<option class="filter" value="bookchapter">Book Chapters</option> <option class="filter" value="book">Books</option> <option class="filter" value="report">Reports</option>
+                                        <option class="filter" value="tpaper">Technical Papers</option> -->
+						</select>
+					</div>
+					<!--
+                                        <div class="col-md-3" id="sort"> <span>Sort by year:</span> <div class="btn-group pull-right">
+
+                                                <button type="button" data-sort="data-year" data-order="desc" class="sort btn btn-default"><i class="fa fa-sort-numeric-asc"></i></button> <button type="button" data-sort="data-year" data-order="asc" class="sort btn btn-default"><i class="fa
+                                                fa-sort-numeric-desc"></i></button> </div> </div> </div> </div> </div>
+-->
+					<div class="section color-2" id="pub-grid">
+						<div class="section-container">
+
+							<div class="row" >
+								<div class="col-md-12">
+									<div class="pitems">
+
+										<div class="item mix cpaper" data-year="2019">
+											<div class="pubmain">
+												<div class="dy">
+													<span class="year" style="font-size: 15px">&nbsp8/2019-Present</span>
+												</div>
+												<div class="pubassets">
+													<a href="#" class="pubcollapse">
+														<i class="fa fa-expand"></i>
+													</a>
+												</div>
+												<div style="margin-top: 10px;font-size: 15px">
+													<p>Wayne State University, Detroit, MI. USA</p>
+													<p>Teaching Assistant</p>
+												</div>
+											</div>
+											<div class="pubdetails">
+												<p>
+												In 2019, I guide students to implement data structures and algorithms using C++ and Object-oriented programming.
+												<br>
+												In 2020, I manage three teams, each team has four senior students. 
+												I help them to do research, implement and finish high-quality software/web applications from scratch.
+												</p>
+											</div>
+										</div>
+
+										<div class="item mix cpaper" data-year="2019">
+											<div class="pubmain">
+												<div class="dy">
+													<span class="year" style="font-size: 15px">&nbsp8/2019-Present</span>
+												</div>
+												<div class="pubassets">
+													<a href="#" class="pubcollapse">
+														<i class="fa fa-expand"></i>
+													</a>
+												</div>
+												<div style="margin-top: 10px;font-size: 15px">
+													<p>Teana Lab, WSU, USA</p>
+													<p>Research Assistant</p>
+												</div>
+											</div>
+											<div class="pubdetails">
+												<p>
+												Working in Textual Data Analytics Lab on various information retrieval projects, mostly on Entity
+												Retrieval.
+												</p>
+											</div>
+										</div>
+
+										<div class="item mix cpaper" data-year="2019">
+											<div class="pubmain">
+												<div class="dy">
+													<span class="year" style="font-size: 15px">&nbsp2/2019-8/2019</span>
+												</div>
+												<div class="pubassets">
+													<a href="#" class="pubcollapse">
+														<i class="fa fa-expand"></i>
+													</a>
+												</div>
+												<div style="margin-top: 10px;font-size: 15px">
+													<p>Kikaitach, Hanoi. Vietnam</p>
+													<p>Full-stack developer</p>
+												</div>
+											</div>
+											<div class="pubdetails">
+												<p>
+												Working on a comprehensive web application for Chefs (React.js, Scala).
+												<br>
+												The application helps them save time, increase accuracy, and reduce costs so they can focus on the food.
+												</p>
+											</div>
+										</div>
+
+										<div class="item mix cpaper" data-year="2019">
+											<div class="pubmain">
+												<div class="dy">
+													<span class="year" style="font-size: 15px">&nbsp4/2017-8/2019</span>
+												</div>
+												<div class="pubassets">
+													<a href="#" class="pubcollapse">
+														<i class="fa fa-expand"></i>
+													</a>
+												</div>
+												<div style="margin-top: 10px;font-size: 15px">
+													<p>KTLab, VNU, Hanoi. Vietnam</p>
+													<p>Undergraduate Research Assistant</p>
+												</div>
+											</div>
+											<div class="pubdetails">
+												<p>
+												Build the state-of-the-art deep learning-based system for intent metadata extraction for Vietnamese.
+												texts including part-of-speech tagging, chunking, and named entity recognition
+												 (<a href="http://eprints.uet.vnu.edu.vn/eprints/id/eprint/3196/1/FIT-TR2018-TranNhuThuat-PhanXuanHieu.pdf" target="_blank">paper</a>,
+												 <a href="intent.ga" target="_blank">demo</a>).
+												<br>
+												Built a model that can automatically extract metadata from publications 
+												(<a href="https://github.com/tienson/VCI-pubExtract/tree/master/src/main" target="_blank">Git</a>).
+												</p>
+											</div>
+										</div>
+
+										<div class="item mix cpaper" data-year="2019">
+											<div class="pubmain">
+												<div class="dy">
+													<span class="year" style="font-size: 15px">&nbsp6/2017-7/2017</span>
+												</div>
+												<div class="pubassets">
+													<a href="#" class="pubcollapse">
+														<i class="fa fa-expand"></i>
+													</a>
+												</div>
+												<div style="margin-top: 10px;font-size: 15px">
+													<p>Math and Science Summer Program, Hanoi. Vietnam</p>
+													<p>Instructor</p>
+												</div>
+											</div>
+											<div class="pubdetails">
+												<p>
+													Write instructions and curriculum [Jupyter Notebook, python, Tensorflow].
+													<br>
+													Direct highschool students to do research and finish their final projects.
+												</p>
+											</div>
+
+											<div class="item mix cpaper" data-year="2019">
+												<div class="pubmain">
+													<div class="dy">
+														<span class="year" style="font-size: 15px">&nbsp9/2016-2/2017</span>
+													</div>
+													<div class="pubassets">
+														<a href="#" class="pubcollapse">
+															<i class="fa fa-expand"></i>
+														</a>
+													</div>
+													<div style="margin-top: 10px;font-size: 15px">
+														<p>InfoRe, Hanoi. Vietnam</p>
+														<p>Data Scientist Intern</p>
+													</div>
+												</div>
+												<div class="pubdetails">
+													<p>
+														Worked on Social Media Command Center, an information retrieval system to exploit 
+														social media data to support organization decision making.
+														<br>
+														Worked on Automatic Vietnamese Speech Recognition models using deep learning.
+													</p>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	</div>
+	</div>
+</body>
+
+</html>
